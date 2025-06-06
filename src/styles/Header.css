@@ -1,0 +1,112 @@
+
+.header{
+  z-index: 5;
+  color: white;
+  position: absolute;
+}
+
+.header-top{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.time{
+  margin-right: 5px;
+  margin-left: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.top-icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-left: 5px;
+}
+
+.phone .phone-innerlayer .phone-camera{
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  height: 25px;
+  border-radius: 0 0 20px 20px;
+  background-color: black;
+}
+
+.camera{
+  width: 20px;
+  height: 20px;
+  background-color: rgba(46, 40, 40, 0.801);
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lens{
+  width: 7px;
+  height: 7px;
+  background-color: #181b2c;
+  border-radius: 50%;
+}
+
+.lens-1{
+  width: 7px;
+  height: 7px;
+  background-color: #181b2c;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+
+.tab-menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-left: 14px;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.text{
+  display: flex;
+  gap: 15px;
+  color: #dddada;
+}
+
+.text .Following, .Friends{
+  position: relative;
+}
+.text .Following span{
+  width: 5px;
+  height: 5px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: -4px;
+  border-radius: 50%;
+}
+
+.text .Friends span{
+  position: absolute;
+  width: 10px;
+  top: -2px;
+  right: -7px;
+  background-color: red;
+  font-size: 8px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.text .for-you{
+  color: white;
+}

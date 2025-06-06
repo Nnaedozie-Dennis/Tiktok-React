@@ -1,0 +1,45 @@
+.text-inbox {
+  position: absolute;
+  bottom: 30px;
+  left: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.username p {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.username ion-icon{
+  color: white;
+  background-color: #00aced;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 1px;
+  font-weight: bolder;
+}
+
+.description p {
+  font-size: 14px;
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.song ion-icon {
+  font-size: 14px;
+}
+
+.song p {
+  font-size: 12px;
+}

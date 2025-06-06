@@ -1,0 +1,16 @@
+.video-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+
+.video-container::-webkit-scrollbar {
+  width: 0.0005px;
+}
+
+.video-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}

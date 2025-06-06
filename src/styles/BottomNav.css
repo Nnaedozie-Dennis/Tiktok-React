@@ -1,0 +1,63 @@
+.bottom {
+  width: 330px;
+  height: 45px;
+  background-color: black;
+  color: white;
+  bottom: -5px;
+  position: absolute;
+  z-index: 5;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  gap: 35px;
+}
+
+.nav ion-icon {
+  font-size: 22px;
+}
+
+.nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav p {
+  font-size: 10px;
+}
+
+.create {
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  width: 35px;
+  height: 30px;
+  color: black;
+  font-weight: bolder;
+}
+
+.create::before,
+.create::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+  z-index: -1;
+  padding: 0 40%;
+}
+
+.create::before {
+  left: 1.5px;
+  background-color: #ff0000;
+}
+
+.create::after {
+  right: 1.5px;
+  background-color: #4398e7;
+}

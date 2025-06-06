@@ -1,0 +1,59 @@
+.sidebar {
+  position: absolute;
+  right: 5px;
+  top: 70%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  color: white;
+}
+
+.profile-pic img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  /* color: #f74c4c; */
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.sidebar-nav ion-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.sidebar-nav p {
+  margin-top: -5px;
+  font-size: 14px;
+}
+
+.sidebar-nav.heart ion-icon{
+  font-size: 35px;
+}
+
+.sidebar-nav.link {
+  background-color: #4b4bdb;
+  padding: 8px;
+  border-radius: 50%;
+  rotate: 130deg;
+}
+
+.sidebar-nav.link ion-icon{
+  font-size: 18px;
+}
+
+.sidebar-nav.disk ion-icon{
+  margin-top: 4px;
+  font-size: 33px;
+  color: #2b2a2a;
+  border-radius: 50%;
+  border: .5px solid #2b2a2a;
+}
