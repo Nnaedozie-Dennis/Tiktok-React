@@ -1,12 +1,27 @@
-# React + Vite
+# TikTok Clone – React Version 🎬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based TikTok clone I built to deepen my understanding of React concepts and improve my front-end development skills. I originally created this project using HTML, CSS, and JavaScript, but later rebuilt it in React to take full advantage of component-based architecture and state management.
 
-Currently, two official plugins are available:
+## 🔥 Live Demo
+👉 [View Live Project](https://tikie.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Component-based structure for cleaner and reusable code
+- Play/Pause functionality with video state
+- Like button with dynamic state changes
+- Hidden video controls for a clean, app-like experience
+- Props usage to reduce code repetition
+- Responsive design
 
-## Expanding the ESLint configuration
+## 📚 What I Learned
+- How to structure projects using multiple React components
+- Using `props` to pass data and functions between components
+- Managing interactive UI behavior with `useState`
+- Building real-world logic for video playback and interaction
+- The advantages of React over plain HTML/CSS/JS for dynamic web apps
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Tech Stack
+- React
+- CSS
+- JavaScript
+- Netlify (for deployment)
